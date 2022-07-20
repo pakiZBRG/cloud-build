@@ -63,5 +63,5 @@ images:
   - "gcr.io/$PROJECT_ID/myapp:$BUILD_ID"
 artifacts:
   objects:
-    location: "gs://devops-$PROJECT_ID/$BUILD_ID"
+    location: "gs://build-from-cloudbuild/$BUILD_ID"
     paths: ["artifacts.tar.gz"]
